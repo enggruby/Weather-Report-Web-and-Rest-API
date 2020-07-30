@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DummyProject]">
+  <test thread-count="5" name="UI and API Secnarios(failed)">
+    <classes>
+      <class name="weatherComparator.ComparatorTest">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="TC001"/>
+          <include name="loadConfig"/>
+        </methods>
+      </class> <!-- weatherComparator.ComparatorTest -->
+    </classes>
+  </test> <!-- UI and API Secnarios(failed) -->
+</suite> <!-- Failed suite [DummyProject] -->
